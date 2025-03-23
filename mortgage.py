@@ -23,6 +23,7 @@ import math
 
 st.title("Loan Repayments Calculator")
 st.sidebar.header("You can contact me here")
+st.sidebar.image("image0.png")
 col1,col2,col3 = st.columns(3)
 link = col1.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
 link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
