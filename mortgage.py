@@ -99,13 +99,13 @@ df1 = pd.DataFrame(
 )
 
 # Display the data-frame as a chart.
-st.write("### Payment Schedule")
+st.write("### Payment Schedule📉")
 payments_df = df1[["Year", "Remaining Balance"]].groupby("Year").min()
 st.line_chart(payments_df)
 
 
 #print(df)
-st.info("Detailed Breakdown Below")
+st.info("Detailed Breakdown Below With Easy Download 🧾")
 st.dataframe(df1)
 
 
