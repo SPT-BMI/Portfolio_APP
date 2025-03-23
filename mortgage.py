@@ -1,4 +1,4 @@
-import streamlit as st
+mport streamlit as st
 import pandas as pd
 import math
 
@@ -78,7 +78,7 @@ df1 = pd.DataFrame(
 
 # Display the data-frame as a chart.
 st.write("### Payment Schedule")
-payments_df = df[["Year", "Remaining Balance"]].groupby("Year").min()
+payments_df = df1[["Year", "Remaining Balance"]].groupby("Year").min()
 st.line_chart(payments_df)
 
 
