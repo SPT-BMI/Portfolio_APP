@@ -84,7 +84,7 @@ st.line_chart(payments_df)
 
 #print(df)
 st.info("Detailed Breakdown Below")
-st.dataframe(df)
+st.dataframe(df1)
 
 
 @st.cache_data
