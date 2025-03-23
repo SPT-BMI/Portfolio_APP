@@ -44,7 +44,7 @@ link3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi"
 
 
 #tab1, tab2 = st.tabs(['Mortgage App', 'Connect with me'])     
-st.info("Input your loans figures into each box and this app will calculate your monthly repayments and interest paid")
+st.info("Input your loans figures into each box and this app will calculate your monthly repayments and interest paid with downloadable csv")
 st.write("### Input Data Below 🔽")
 col1, col2 = st.columns(2)
 home_value = col1.number_input("Purchase Value", min_value=0, value=300000)
