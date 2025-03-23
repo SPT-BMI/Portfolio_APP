@@ -19,6 +19,11 @@ import math
 
 st.title("Loan Repayments Calculator")
 st.sidebar.header("test")
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
+
 
 
 #tab1, tab2 = st.tabs(['Mortgage App', 'Connect with me'])     
