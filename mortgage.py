@@ -17,12 +17,22 @@ import math
     #st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 
 
+#st.title("Loan Repayments Calculator")
+#st.sidebar.header("test")
+
+
 st.title("Loan Repayments Calculator")
-st.sidebar.header("test")
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)
+st.sidebar.header("You can contact me here")
+col1,col2,col3 = st.columns(3)
+link = col1.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
+link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
+link3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi")
+#add_selectbox = st.sidebar.selectbox(
+    #"How would you like to be contacted?",
+    #("Email", "Home phone", "Mobile phone")
+#)
+
+
 
 
 
