@@ -23,6 +23,9 @@ import math
 
 st.title("Loan Repayments Calculator")
 st.sidebar.header("Designed by Jermit Gunning")
+st.subheader("Contact me here")
+st.info("I'm a passionate analyst dedicated to turning data into information and bridging the gap between technical and business teams for solutions that matter. I enjoy cross-functional teamwork to solve tough business problems and improve processes. Learning and self-improvement are cornerstones of both my work and personal life. ")
+
 
 datar = [1,2,3,4]
 #st.sidebar.add_rows(datar)
