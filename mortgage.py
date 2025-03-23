@@ -26,7 +26,7 @@ st.sidebar.header("Designed by Jermit Gunning")
 
 datar = [1,2,3,4]
 #st.sidebar.add_rows(datar)
-st.sidebar.image("image0.png")
+#st.sidebar.image("image0.png")
 col1,col2,col3 = st.sidebar.columns(3)
 link = col1.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
 link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
