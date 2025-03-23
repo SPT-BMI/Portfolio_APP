@@ -21,11 +21,11 @@ import math
 #st.sidebar.header("test")
 
 
-st.title("Loan Repayments Calculator")
+st.title("Loan Repayments Calculator🏡")
 st.sidebar.header("Designed by Jermit Gunning")
-st.sidebar.subheader("Who Am I?")
+st.sidebar.subheader("Who Am I?👨‍💼")
 st.sidebar.info("I'm a passionate analyst dedicated to turning data into information and bridging the gap between technical and business teams for solutions that matter. I enjoy cross-functional teamwork to solve tough business problems and improve processes. Learning and self-improvement are cornerstones of both my work and personal life. ")
-st.sidebar.subheader("Contact me here")
+st.sidebar.subheader("Contact me here🔽")
 
 datar = [1,2,3,4]
 #st.sidebar.add_rows(datar)
@@ -45,7 +45,7 @@ link3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi"
 
 #tab1, tab2 = st.tabs(['Mortgage App', 'Connect with me'])     
 st.info("Input your loans figures into each box and this app will calculate your monthly repayments and interest paid")
-st.write("### Input Data")
+st.write("### Input Data Below 🔽")
 col1, col2 = st.columns(2)
 home_value = col1.number_input("Purchase Value", min_value=0, value=300000)
 deposit = col1.number_input("Deposit", min_value=0, value=100000)
@@ -66,7 +66,7 @@ monthly_payment = (
 total_payments = monthly_payment * number_of_payments
 total_interest = total_payments - loan_amount
 
-st.write("### Repayments")
+st.write("### 💵Repayments")
 col1, col2, col3 = st.columns(3)
 col1.metric(label="Monthly Repayments", value=f"${monthly_payment:,.2f}")
 col2.metric(label="Total Repayments", value=f"${total_payments:,.0f}")
