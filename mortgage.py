@@ -10,7 +10,7 @@ with tab1:
 #st.sidebar.header("test")
 
 
-st.title("Loan Repayments Calculator🏡")
+    st.title("Loan Repayments Calculator🏡")
 st.sidebar.header("Designed by Jermit Gunning")
 st.sidebar.subheader("Who Am I?👨‍💼")
 st.sidebar.info("I'm a passionate analyst dedicated to turning data into information and bridging the gap between technical and business teams for solutions that matter. I enjoy cross-functional teamwork to solve tough business problems and improve processes. Learning and self-improvement are cornerstones of both my work and personal life. ")
@@ -92,7 +92,7 @@ with tab2:
    #st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
 
 # Display the data-frame as a chart.
-st.write("### Payment Schedule📉")
+    st.write("### Payment Schedule📉")
 payments_df = df1[["Year", "Remaining Balance"]].groupby("Year").min()
 st.line_chart(payments_df)
 
