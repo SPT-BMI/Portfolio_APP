@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 
-
+tabs = st.tabs(['Write a ticket', 'Ticket Status and Analytics'])
 
 with tab1:
 
