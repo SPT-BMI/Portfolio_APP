@@ -19,7 +19,7 @@ with tab1:
     col1,col2,col3 = st.sidebar.columns(3)
     link = col1.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
     link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
-l    ink3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi")
+    link3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi")
 #add_selectbox = st.sidebar.selectbox(
     #"How would you like to be contacted?",
     #("Email", "Home phone", "Mobile phone")
