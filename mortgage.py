@@ -50,7 +50,7 @@ with tab1:
 # Display the repayments.
 total_payments = monthly_payment * number_of_payments
 total_interest = total_payments - loan_amount
-
+with tab1:
     st.write("### 💵Repayments")
     col1, col2, col3 = st.columns(3)
     col1.metric(label="Monthly Repayments", value=f"${monthly_payment:,.2f}")
