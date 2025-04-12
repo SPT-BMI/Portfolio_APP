@@ -3,9 +3,10 @@ import pandas as pd
 import math
 
 
-st.sidebar.subheader("Contact me here")
+st.sidebar.subheader("Hi Welcome to my Python App)
 st.sidebar.info("I'm a passionate analyst dedicated to turning data into information and bridging the gap between technical and business teams for solutions that matter. I enjoy cross-functional teamwork to solve tough business problems and improve processes. Learning and self-improvement are cornerstones of both my work and personal life. ")
 
+st.sidebar.header("You can contact me here")
 col1,col2,col3 =st.sidebar.columns(3)
 link = col1.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
 link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
@@ -22,8 +23,7 @@ tab1,tab2,tab3 = st.tabs(["📈Chart Data","🗃 Download Data", "Recomendations
 
 with tab1: 
     st.title("Loan Repayments Calculator")
-    st.sidebar.header("You can contact me here")
-    st.sidebar.columns(3)
+   # st.sidebar.columns(3)
 #datar = [1,2,3,4]
 #st.sidebar.add_rows(datar)
 
