@@ -6,8 +6,8 @@ import math
 st.sidebar.subheader("Contact me here")
 st.sidebar.info("I'm a passionate analyst dedicated to turning data into information and bridging the gap between technical and business teams for solutions that matter. I enjoy cross-functional teamwork to solve tough business problems and improve processes. Learning and self-improvement are cornerstones of both my work and personal life. ")
 
-col1,col2,col3 =st.columns(3)
-link = col1.sidebar.link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
+col1,col2,col3 =st.sidebar.columns(3)
+link = col1..link_button("LinkedIn", "https://www.linkedin.com/in/jermit-gunning-779a81172/")
 link1 = col2.link_button("Portfolio", "https://sites.google.com/view/jermitgunning/home")
 link3 = col3.link_button("Other Apps", "https://share.streamlit.io/user/spt-bmi")
 
